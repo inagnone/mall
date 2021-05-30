@@ -10,7 +10,7 @@ target/
 .factorypath
 .project
 .settings
-.springBeans
+.springBeans0
 .sts4-cache
 
 ### IntelliJ IDEA ###
@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+coupon/src/main/resources/static/
+coupon/src/main/resources/templates/
+member/src/main/resources/static/
+member/src/main/resources/templates/
+order/src/main/resources/static/
+order/src/main/resources/templates/
+product/src/main/resources/static/
+product/src/main/resources/templates/
+ware/src/main/resources/static/
+ware/src/main/resources/templates/
