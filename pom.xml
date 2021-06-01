@@ -17,6 +17,7 @@
         <module>order</module>
         <module>product</module>
         <module>ware</module>
+        <module>common</module>
     </modules>
 
 </project>

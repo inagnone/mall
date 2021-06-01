@@ -27,8 +27,9 @@
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
+			<groupId>org.example</groupId>
+			<artifactId>common</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
@@ -54,11 +55,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.flywaydb</groupId>
-				<artifactId>flyway-parent</artifactId>
-				<version>7.7.3</version>
 			</plugin>
 		</plugins>
 	</build>
