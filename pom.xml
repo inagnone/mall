@@ -18,6 +18,7 @@
         <module>product</module>
         <module>ware</module>
         <module>common</module>
+        <module>renren-fast</module>
     </modules>
 
 </project>
