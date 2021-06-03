@@ -1,6 +1,8 @@
 HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
+**/.mvn
+**/mvnw
+**/mvnw.cmd
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -31,13 +33,5 @@ build/
 
 ### VS Code ###
 .vscode/
-coupon/src/main/resources/static/
-coupon/src/main/resources/templates/
-member/src/main/resources/static/
-member/src/main/resources/templates/
-order/src/main/resources/static/
-order/src/main/resources/templates/
-product/src/main/resources/static/
-product/src/main/resources/templates/
-ware/src/main/resources/static/
-ware/src/main/resources/templates/
+
+
