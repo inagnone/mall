@@ -1,6 +1,6 @@
 
 server:
-  port: 81
+  port: 82
 spring:
   datasource:
     url: jdbc:mysql://192.168.56.10:3306/ums?createDatabaseIfNotExist=true&serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
@@ -9,6 +9,12 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   flyway:
     enabled: true
-#    baseline-on-migrate: true
-#    locations: classpath:db.migration,
+    #    baseline-on-migrate: true
+    #    locations: classpath:db.migration,
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.56.10:8849
+  application:
+    name: member
 
